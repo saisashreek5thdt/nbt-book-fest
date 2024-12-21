@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Services() {
   return (
@@ -28,9 +28,13 @@ function Services() {
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">Book Collection</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>Discover an extensive collection of books across all genres.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">
@@ -47,14 +51,18 @@ function Services() {
               >
                 <div className="service__block">
                   <div className="service__icon">
-                    <i className="fa-solid fa-palette" />
+                    <i className="fa-solid fa-book" />
                     <div className="service__icon__two" />
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">Book Design</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>Custom book cover and interior design services for authors.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">
@@ -71,14 +79,18 @@ function Services() {
               >
                 <div className="service__block">
                   <div className="service__icon">
-                    <i className="fa-solid fa-bullhorn" />
+                    <i className="fa-solid fa-book" />
                     <div className="service__icon__two" />
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">Book Promotions</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>Boost your book's visibility with our marketing strategies.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">
@@ -97,14 +109,18 @@ function Services() {
               >
                 <div className="service__block">
                   <div className="service__icon">
-                    <i className="fa-solid fa-chart-line" />
+                    <i className="fa-solid fa-book" />
                     <div className="service__icon__two" />
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">Author Analytics</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>Track your book sales, audience engagement, and more.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">
@@ -121,14 +137,18 @@ function Services() {
               >
                 <div className="service__block">
                   <div className="service__icon">
-                    <i className="fa fa-globe" />
+                    <i className="fa-solid fa-book" />
                     <div className="service__icon__two" />
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">E-Book Development</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>Transform your manuscript into a professional e-book format.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">
@@ -145,14 +165,18 @@ function Services() {
               >
                 <div className="service__block">
                   <div className="service__icon">
-                    <i className="fa-solid fa-search" />
+                    <i className="fa-solid fa-book" />
                     <div className="service__icon__two" />
                   </div>
                   <div className="service__text">
                     <h4>
-                      <a href="service-details.html">Rare Book Search</a>
+                      <a href="service-details.html">Lorem Ipsum</a>
                     </h4>
-                    <p>We help you find rare and out-of-print books for your collection.</p>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its layout.{" "}
+                    </p>
                   </div>
                   <div className="service__button">
                     <a href="service-details.html">

@@ -1,10 +1,13 @@
-
 import { useEffect } from "react";
 import Navbar from "./Layouts/Navbar";
 import Services from "./components/Services";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Testimonal from "./components/Testimonal";
 import HexagonCarousel from "./components/HexagonCarousel";
+import Blogs from "./components/Blogs";
+import Speakers from "./components/Speakers";
+import Events from "./components/Events";
+import BrandTags from "./components/BrandTags";
 
 function App() {
   const loadScript = (src, onLoad = () => {}) => {
@@ -50,18 +53,14 @@ function App() {
       <div className="loader-wrap">
         <div className="hendel__preloder">
           <div className="preloader">
-            <div className="preloader-ring">
-              Mumbai Book Fair
-            </div>
-            <div className="preloader-ring">
-            Mumbai Book Fair
-            </div>
+            <div className="preloader-ring">Mumbai Book Fair</div>
+            <div className="preloader-ring">Mumbai Book Fair</div>
           </div>
         </div>
       </div>
       {/* preloader end */}
       {/* main header */}
-      <Navbar/>
+      <Navbar />
       {/* End Mobile Menu */}
       {/* banner-one */}
       <section className="banner__one ">
@@ -123,7 +122,7 @@ function App() {
                         <div className="round-text">
                           <div className="text_1">
                             <p className="text_2">
-                            Azad Maidan Mumbai Book Fest April 2025
+                              Azad Maidan Mumbai Book Fest April 2025
                             </p>
                           </div>
                         </div>
@@ -138,8 +137,8 @@ function App() {
       </section>
       {/* banner-one end */}
       {/* service */}
-     <Services/>
-     <HexagonCarousel/>
+      <Services />
+      
       {/* service-end */}
       {/* about */}
       <section className="about__section p_relative see__pad">
@@ -173,12 +172,12 @@ function App() {
                   }}
                 >
                   <div className="count-outer count-box">
-                    <h1 className="count-text" data-speed={1500} data-stop={2}>
+                    <h1 className="count-text" data-speed={1500} data-stop={5}>
                       0
                     </h1>
                     <span>K+</span>
                   </div>
-                  <p>World wide Client</p>
+                  <p>Speakers</p>
                 </div>
               </div>
             </div>
@@ -190,8 +189,8 @@ function App() {
                 </div>
                 <div className="title two">
                   <h2>
-                    Enhancing Real-world Experiences with AR{" "}
-                    <span>Technology</span>.
+                  Lorem ipsum dolor sit
+                    <span> amet</span>.
                   </h2>
                 </div>
                 <div className="texts">
@@ -216,236 +215,35 @@ function App() {
       {/* about-end */}
 
       {/* added data */}
-       <div className="auto-container">
-          <div className="title__data">
-            <div className="sub__title">
-              <h4>Exectutive member</h4>
-            </div>
-            <div className="title">
-              <h2>We Have Expert Member</h2>
-            </div>
+      <div className="auto-container">
+        <div className="title__data">
+          <div className="sub__title">
+            <h4>Executive Member</h4>
           </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Member 1</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
-                    <li>
-                      <a href="#">FB.</a>
-                    </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Member 2</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
-                    <li>
-                      <a href="#">FB.</a>
-                    </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Member 3</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
-                    <li>
-                      <a href="#">FB.</a>
-                    </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Member 4</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
-                    <li>
-                      <a href="#">FB.</a>
-                    </li>
-                    <li>
-                      <a href="#">TW.</a>
-                    </li>
-                    <li>
-                      <a href="#">LI</a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div>
+          <div className="title">
+            <h2>We Have Executive Members</h2>
           </div>
         </div>
-
-        {/* <HexagonCarousel/> */}
-
-      {/* choose */}
-      <section className="choose__us p_relative">
-        <div className="choose__us__data">
-          <div className="auto-container">
-            <div className="row">
-              <div className="col-lg-6 col-md-12">
-                <div className="choose__block">
-                  <figure>
-                    <img src="assets/images/resource/choose-01.png" alt="" />
-                  </figure>
-                </div>
+        <div className="row">
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <div
+              className="team__block wow fadeInUp animated"
+              data-wow-delay="00ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="team__img">
+                <figure>
+                  <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png"
+                    alt=""
+                  />
+                </figure>
               </div>
-              <div className="col-lg-6 col-md-12">
-                <div className="choose__block__right">
-                  <div className="title__data">
-                    <div className="sub__title">
-                      <h4>Event schedule</h4>
-                    </div>
-                    <div className="title">
-                      <h2>We Provide Your Best Work </h2>
-                    </div>
-                  </div>
-                  <div className="team__data">
-                    <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
-                    </div>
-                    <div className="team__data__right">
-                      <h3>Lorem ipsum :</h3>
-                      <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
-                      </p>
-                    </div>
-                  </div>
-                  <div className="team__data">
-                    <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
-                    </div>
-                    <div className="team__data__right">
-                      <h3>Lorem ipsum :</h3>
-                      <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
-                      </p>
-                    </div>
-                  </div>
-                  <div className="team__data three">
-                    <div className="team__data__left">
-                      <img src="assets/images/resource/choose-02.svg" alt="" />
-                    </div>
-                    <div className="team__data__right">
-                      <h3>Lorem ipsum :</h3>
-                      <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="team__name">
+                <h3>Member 1</h3>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* choose-end */}
-      {/* team-section */}
-      <section className="team__section see__pad p_relative">
-        <div className="pattern-layer">
-          <div
-            className="pattern-3 p_absolute"
-            data-parallax='{"y": 50}'
-            style={{
-              backgroundImage: "url(assets/images/shapes/shape-03.png)",
-            }}
-          />
-        </div>
-        <div className="auto-container">
-          <div className="title__data">
-            <div className="sub__title">
-              <h4>Speakers</h4>
-            </div>
-            <div className="title">
-              <h2>We Have Expert Member</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Speaker 1</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
+              <div className="team__media">
+                {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -456,25 +254,28 @@ function App() {
                       <a href="#">LI</a>
                     </li>
                   </ul> */}
-                </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Speaker 2</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <div
+              className="team__block wow fadeInUp animated"
+              data-wow-delay="200ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="team__img">
+                <figure>
+                  <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div className="team__name">
+                <h3>Member 2</h3>
+              </div>
+              <div className="team__media">
+                {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -485,25 +286,28 @@ function App() {
                       <a href="#">LI</a>
                     </li>
                   </ul> */}
-                </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Speaker 3</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <div
+              className="team__block wow fadeInUp animated"
+              data-wow-delay="400ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="team__img">
+                <figure>
+                  <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div className="team__name">
+                <h3>Member 3</h3>
+              </div>
+              <div className="team__media">
+                {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -514,25 +318,28 @@ function App() {
                       <a href="#">LI</a>
                     </li>
                   </ul> */}
-                </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div
-                className="team__block wow fadeInUp animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="team__img">
-                  <figure>
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png" alt="" />
-                  </figure>
-                </div>
-                <div className="team__name">
-                  <h3>Kristin Watson</h3>
-                </div>
-                <div className="team__media">
-                  {/* <ul>
+          </div>
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <div
+              className="team__block wow fadeInUp animated"
+              data-wow-delay="600ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="team__img">
+                <figure>
+                  <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/026/497/734/small_2x/businessman-on-isolated-png.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <div className="team__name">
+                <h3>Member 4</h3>
+              </div>
+              <div className="team__media">
+                {/* <ul>
                     <li>
                       <a href="#">FB.</a>
                     </li>
@@ -543,211 +350,23 @@ function App() {
                       <a href="#">LI</a>
                     </li>
                   </ul> */}
-                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        
-      </section>
-      {/* team-section-end */}
-      {/* testimonial-section */}
-      <Testimonal/>
-      {/* testimonial-section-end */}
-      {/* brand-section */}
-      <div className="brand__section p_relative see__pad">
-        <div className="pattern-layer">
-          <div
-            className="pattern-3 p_absolute"
-            data-parallax='{"y": -50}'
-            style={{
-              backgroundImage: "url(assets/images/shapes/shape-05.png)",
-            }}
-          />
-        </div>
-        <div className="brand-carousel owl-carousel owl-theme  nav-style-one owl-loaded owl-drag">
-          <div className="brand__content">
-            <div className="brand__name">
-              <h1>Mumbai *</h1>
-            </div>
-          </div>
-          <div className="brand__content">
-            <div className="brand__name">
-              <h1>Book Fest 2025 *</h1>
-            </div>
-          </div>
-          <div className="brand__content">
-            <div className="brand__name">
-              <h1>Mumbai *</h1>
-            </div>
-          </div>
-          <div className="brand__content">
-            <div className="brand__name">
-              <h1>Book Fest 2025 *</h1>
             </div>
           </div>
         </div>
       </div>
-      {/* brand-section-end */}
-      {/* blog-section */}
-      <section className="blog__section see__pad p_relative">
-        <div className="auto-container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12">
-              <div className="title__data">
-                <div className="sub__title">
-                  <h4>Latest News </h4>
-                </div>
-                <div className="title">
-                  <h2>Learn From Blog</h2>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div className="normaol__text">
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12 news__block">
-              <div
-                className="news___block wow slideInUp animated animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-                style={{ visibility: "visible" }}
-              >
-                <div className="inner-box p_relative">
-                  <div className="image-box p_relative d_block">
-                    <figure className="image p_relative d_block">
-                      <a href="blog-details.html">
-                        <img src="assets/images/news/news-1.jpg" alt="" />
-                      </a>
-                    </figure>
-                    <div className="post__date">
-                      <ul>
-                        <li>
-                          {" "}
-                          <i className="icon-15" />
-                          26 July 2023
-                        </li>
-                        <li className="two" />
-                        <li>
-                          <i className="icon-09" /> Admin
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* <div className="lower___content p_relative">
-                    <h4>
-                      <a href="blog-details.html">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
-                      </a>
-                    </h4>
-                    <div className="btn__box__two">
-                      <a href="blog-details.html" className="theme__btn__two">
-                        <i className="icon-02" />
-                      </a>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12 news__block">
-              <div
-                className="news___block wow slideInUp animated animated"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-                style={{ visibility: "visible" }}
-              >
-                <div className="inner-box p_relative">
-                  <div className="image-box p_relative d_block">
-                    <figure className="image p_relative d_block">
-                      <a href="blog-details.html">
-                        <img src="assets/images/news/news-2.jpg" alt="" />
-                      </a>
-                    </figure>
-                    <div className="post__date">
-                      <ul>
-                        <li>
-                          {" "}
-                          <i className="icon-15" />
-                          26 July 2023
-                        </li>
-                        <li className="two" />
-                        <li>
-                          <i className="icon-09" /> Admin
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* <div className="lower___content p_relative">
-                    <h4>
-                      <a href="blog-details.html">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
-                      </a>
-                    </h4>
-                    <div className="btn__box__two">
-                      <a href="blog-details.html" className="theme__btn__two">
-                        <i className="icon-02" />
-                      </a>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12 news__block">
-              <div
-                className="news___block wow slideInUp animated animated"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-                style={{ visibility: "visible" }}
-              >
-                <div className="inner-box p_relative">
-                  <div className="image-box p_relative d_block">
-                    <figure className="image p_relative d_block">
-                      <a href="blog-details.html">
-                        <img src="assets/images/news/news-3.jpg" alt="" />
-                      </a>
-                    </figure>
-                    <div className="post__date">
-                      <ul>
-                        <li>
-                          {" "}
-                          <i className="icon-15" />
-                          26 July 2023
-                        </li>
-                        <li className="two" />
-                        <li>
-                          <i className="icon-09" /> Admin
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/* <div className="lower___content p_relative">
-                    <h4>
-                      <a href="blog-details.html">
-                        4 Cybersecurity Takeaways from China’s Largest Data
-                        Breach
-                      </a>
-                    </h4>
-                    <div className="btn__box__two">
-                      <a href="blog-details.html" className="theme__btn__two">
-                        <i className="icon-02" />
-                      </a>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* blog-section-end */}
+
+      <HexagonCarousel />
+
+      {/* <HexagonCarousel/> */}
+
+      <Events />
+      <Speakers />
+      {/* testimonial-section */}
+      <Testimonal />
+      {/* testimonial-section-end */}
+      <BrandTags />
+      <Blogs />
       {/* footer-one */}
       <footer className="main__footer">
         <div className="footer-top">
@@ -783,7 +402,11 @@ function App() {
                     </figure>
                     <div className="text">
                       <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
                       </p>
                     </div>
                     <div className="btn-box">
@@ -804,7 +427,9 @@ function App() {
                     </div>
                     <div className="text">
                       <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
                       </p>
                     </div>
                     <div className="subscribe-inner">
@@ -845,7 +470,9 @@ function App() {
                     <div className="widget-content">
                       <div className="text">
                         <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s
                         </p>
                       </div>
                       <a href="tell:3055873407">+2(305) 587-3407</a>
@@ -972,8 +599,7 @@ function App() {
               <div className="bottom-inner">
                 <div className="copyright">
                   <p>
-                    © 2024 <a href="index.html">.</a> All rights
-                    reserved
+                    © 2024 <a href="index.html">.</a> All rights reserved
                   </p>
                 </div>
               </div>

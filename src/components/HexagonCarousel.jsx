@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Carousel from "react-bootstrap/Carousel";
+import icons from "../assets/images/logo/logo2.png";
 
 const HexagonCarousel = () => {
   const hexagonStyle = {
@@ -18,16 +19,8 @@ const HexagonCarousel = () => {
   };
 
   const slides = [
-    [
-      {  img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-      {  img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-      {  img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-    ],
-    [
-      { img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-      {  img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-      {  img: "https://img.freepik.com/free-vector/figure-folded-logo_1043-97.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1729555200&semt=ais_hybrid" },
-    ],
+    [{ img: icons }, { img: icons }, { img: icons }],
+    [{ img: icons }, { img: icons }, { img: icons }],
   ];
 
   return (
