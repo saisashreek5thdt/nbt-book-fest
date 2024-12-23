@@ -1,9 +1,9 @@
 (function ($) {
   "use strict";
 
-  $(window).on("load", function () {
-    $(".preloader").delay(350).fadeOut("slow");
-  });
+  // $(window).on("load", function () {
+  //   $(".preloader").delay(350).fadeOut("slow");
+  // });
 
 
 
