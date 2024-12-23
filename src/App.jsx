@@ -43,7 +43,7 @@ function App() {
       <div>
         <div className="ball"></div>
         <div className="cursor-text"></div>
-        <div className="preloader">
+        {/* <div className="preloader">
           <DotLottieReact
             src="https://lottie.host/d851f1dc-6ef5-40be-8ca8-bbffcd018276/wutdxEizj0.json"
             backgroundColor="#04000A"
@@ -54,7 +54,7 @@ function App() {
             autoplay
             style={{ width: 100, height: "100%" }}
           />
-        </div>
+        </div> */}
         {/* Header Start */}
         <Header />
         {/* Header End */}
