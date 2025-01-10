@@ -1,4 +1,3 @@
-import { IoTicketOutline } from "react-icons/io5";
 import logo1 from "../assets/images/global/logo-landing-light.png";
 import logo2 from "../assets/images/global/logo-secondary.png";
 import logo3 from "../assets/images/global/logo.png";
@@ -225,10 +224,9 @@ export default function Header() {
                     aria-label="buttons"
                   >
                     <span className="buttons-logo">
-                      {/* <svg width="25" height="25">
-                        <use xlinkHref="#buttons-logo"></use>
-                      </svg> */}
-                      <IoTicketOutline style={{ width: 25, height: 25 }} />
+                      <svg width="25" height="25">
+                        <use href="#buttons-logo" xlinkHref="#buttons-logo"></use>
+                      </svg>
                     </span>
                     Buy Ticket
                   </a>

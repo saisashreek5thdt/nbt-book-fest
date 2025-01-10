@@ -1,9 +1,20 @@
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+// import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { useEffect } from "react";
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
 import AboutSection from "./Components/AboutSection";
 import EventHighlights from "./Components/EventsHightlights";
+import LineupSection from "./Components/LineupSection";
+import Countdown from "./Components/CountdownSection";
+import EventInfo from "./Components/EventInfo";
+import ScrollSection from "./Components/ScrollSection";
+import TicketSection from "./Components/TicketSection";
+import PartnersSection from "./Components/PartnersSection";
+import GallerySection from "./Components/GallerySection";
+import Merchandise from "./Components/Merchandise";
+import CTASection from "./Components/CTASection";
+import SubscriptionSection from "./Components/SubscriptionSection";
+import FooterSection from "./Components/FooterSection";
 
 function App() {
   const loadScript = (src, onLoad = () => {}) => {
@@ -40,7 +51,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="home-7">
         <div className="ball"></div>
         <div className="cursor-text"></div>
         {/* <div className="preloader">
@@ -75,7 +86,38 @@ function App() {
         {/* Events Highlights Section Start */}
         <EventHighlights />
         {/* Events Highlights Section End */}
+        {/* Lineup Section Start */}
+        <LineupSection />
+        {/* Lineup Section End */}
+        {/* Countdown Section Start */}
+        <Countdown />
+        {/* Countdown Section End */}
+        {/* EventDayWise Schedule Start */}
+        <EventInfo />
+        {/* EventDayWise Schedule End */}
+        {/* Scroll Section Start */}
+        <ScrollSection />
+        {/* Scroll Section End */}
+        {/* Ticket Section Start */}
+        <TicketSection />
+        {/* Ticket Section End */}
+        {/* Partners Section Start */}
+        <PartnersSection />
+        {/* Partners Section End */}
+        {/* Gallery Section Start */}
+        <GallerySection />
+        {/* Gallery Section End */}
+        {/* Merchandise Section Start */}
+        <Merchandise />
+        {/* Merchandise Section End */}
+        {/* CTA Section Start */}
+        <CTASection />
+        {/* CTA Section End */}
+        {/* Subscription Section Start */}
+        <SubscriptionSection />
+        {/* Subscription Section End */}
       </div>
+      <FooterSection />
     </>
   );
 }

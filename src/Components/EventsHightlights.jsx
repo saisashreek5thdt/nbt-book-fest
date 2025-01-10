@@ -1,9 +1,3 @@
-import { FaRegStarHalfStroke } from "react-icons/fa6";
-import { FaMicrophoneAlt, FaRegCalendarAlt } from "react-icons/fa";
-import { AiFillPieChart } from "react-icons/ai";
-import { IoGameController } from "react-icons/io5";
-import { FiArrowUpRight } from "react-icons/fi";
-
 export default function EventHighlights() {
   return (
     <>
@@ -43,10 +37,12 @@ export default function EventHighlights() {
                 className="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
                 <div className="highlights-icon-style-1">
-                  {/* <svg width="68" height="64">
-                    <use xlinkHref="#highlights-icon-1"></use>
-                  </svg> */}
-                  <FaRegStarHalfStroke style={{ width: 68, height: 64 }} />
+                  <svg width="68" height="64">
+                    <use
+                      href="#highlights-icon-1"
+                      xlinkHref="#highlights-icon-1"
+                    ></use>
+                  </svg>
                 </div>
                 <h3 className="fw-extra-bold mb-0 custom-jakarta">
                   Diverse Musical Lineup
@@ -64,10 +60,12 @@ export default function EventHighlights() {
                 className="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
                 <div className="highlights-icon-style-1">
-                  {/* <svg width="58" height="68">
-                    <use xlinkHref="#highlights-icon-2"></use>
-                  </svg> */}
-                  <FaMicrophoneAlt style={{ width: 58, height: 68 }} />
+                  <svg width="58" height="68">
+                    <use
+                      href="#highlights-icon-2"
+                      xlinkHref="#highlights-icon-2"
+                    ></use>
+                  </svg>
                 </div>
                 <h3 className="fw-extra-bold mb-0 custom-jakarta">
                   Immersive Performances
@@ -85,10 +83,12 @@ export default function EventHighlights() {
                 className="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
                 <div className="highlights-icon-style-1">
-                  {/* <svg width="60" height="68">
-                    <use xlinkHref="#highlights-icon-3"></use>
-                  </svg> */}
-                  <FaRegCalendarAlt style={{ width: 60, height: 60 }} />
+                  <svg width="60" height="68">
+                    <use
+                      href="#highlights-icon-3"
+                      xlinkHref="#highlights-icon-3"
+                    ></use>
+                  </svg>
                 </div>
                 <h3 className="fw-extra-bold mb-0 custom-jakarta">
                   Interactive Schedule
@@ -105,10 +105,12 @@ export default function EventHighlights() {
                 className="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
                 <div className="highlights-icon-style-1">
-                  {/* <svg width="68" height="68">
-                    <use xlinkHref="#highlights-icon-4"></use>
-                  </svg> */}
-                  <AiFillPieChart style={{ width: 68, height: 68 }} />
+                  <svg width="68" height="68">
+                    <use
+                      href="#highlights-icon-4"
+                      xlinkHref="#highlights-icon-4"
+                    ></use>
+                  </svg>
                 </div>
                 <h3 className="fw-extra-bold mb-0 custom-jakarta">
                   Culinary Delights
@@ -126,10 +128,12 @@ export default function EventHighlights() {
                 className="highlights-item-3 text-decoration-none position-relative d-flex flex-column gap-20 px-30 px-lg-40 py-40 py-lg-50"
               >
                 <div className="highlights-icon-style-1">
-                  {/* <svg width="68" height="68">
-                    <use xlinkHref="#highlights-icon-5"></use>
-                  </svg> */}
-                  <IoGameController style={{ width: 68, height: 68 }} />
+                  <svg width="68" height="68">
+                    <use
+                      href="#highlights-icon-5"
+                      xlinkHref="#highlights-icon-5"
+                    ></use>
+                  </svg>
                 </div>
                 <h3 className="fw-extra-bold mb-0 custom-jakarta">
                   Engaging Activities
@@ -147,10 +151,12 @@ export default function EventHighlights() {
                     See More
                   </span>
                   <span className="arrow-up-short">
-                    {/* <svg width="30" height="29">
-                      <use xlinkHref="#arrow-up-short"></use>
-                    </svg>*/}
-                    <FiArrowUpRight style={{ width: 30, height: 29 }} />
+                    <svg width="30" height="29">
+                      <use
+                        href="#arrow-up-short"
+                        xlinkHref="#arrow-up-short"
+                      ></use>
+                    </svg>
                   </span>
                 </a>
               </div>

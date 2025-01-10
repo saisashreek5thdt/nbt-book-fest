@@ -1,5 +1,3 @@
-import { IoTicketOutline } from "react-icons/io5";
-import { FaBasketShopping } from "react-icons/fa6";
 import about1 from "../assets/images/home-7/about-7-image.jpg";
 
 export default function AboutSection() {
@@ -63,10 +61,9 @@ export default function AboutSection() {
                   aria-label="buttons"
                 >
                   <span className="buttons-logo">
-                    {/* <svg width="25" height="25">
-                      <use xlinkHref="#buttons-logo"></use>
-                    </svg> */}
-                    <IoTicketOutline style={{ width: 25, height: 25 }} />
+                    <svg width="25" height="25">
+                      <use href="#buttons-logo" xlinkHref="#buttons-logo"></use>
+                    </svg>
                   </span>
                   Buy Ticket
                 </a>
@@ -76,10 +73,9 @@ export default function AboutSection() {
                   aria-label="buttons"
                 >
                   <span className="buttons-logo icon-style-3">
-                    {/* <svg width="19" height="19">
-                      <use xlinkHref="#shop-icon-sm"></use>
-                    </svg> */}
-                    <FaBasketShopping style={{ width: 25, height: 25 }} />
+                    <svg width="19" height="19">
+                      <use href="#shop-icon-sm" xlinkHref="#shop-icon-sm"></use>
+                    </svg>
                   </span>
                   Shop Merch
                 </a>

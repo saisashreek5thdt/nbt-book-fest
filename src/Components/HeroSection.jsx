@@ -3,8 +3,6 @@ import hero2 from "../assets/images/home-7/hero-image-2.png";
 import author1 from "../assets/images/home-7/hero-author-1.png";
 import author2 from "../assets/images/home-7/hero-author-2.png";
 import author3 from "../assets/images/home-7/hero-author-3.png";
-import { MoveUpRight } from "lucide-react";
-import { FaStar } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -31,16 +29,14 @@ export default function HeroSection() {
                   </div>
                   <div className="star-icons d-flex align-items-end gap-0 position-absolute end-50">
                     <span className="star-icon-big">
-                      {/* <svg width="87" height="87">
-                        <use xlinkHref="#star-icon-big"></use>
-                      </svg> */}
-                      <FaStar style={{ width: 87, height: 87 }} />
+                      <svg width="87" height="87">
+                        <use href="#star-icon-big" xlinkHref="#star-icon-big"></use>
+                      </svg>
                     </span>
                     <span className="star-icon-small">
-                      {/* <svg width="23" height="23">
-                        <use xlinkHref="#star-icon-small"></use>
-                      </svg> */}
-                      <FaStar style={{ width: 23, height: 23 }} />
+                      <svg width="23" height="23">
+                        <use href="#star-icon-small" xlinkHref="#star-icon-small"></use>
+                      </svg>
                     </span>
                   </div>
                 </div>
@@ -128,10 +124,9 @@ export default function HeroSection() {
                     href="#"
                     className="ticket-arrow arrow-style-2 arrow-up-right"
                   >
-                    {/* <svg width="50" height="50">
-                      <use xlinkHref="#arrow-up-right"></use>
-                    </svg> */}
-                    <MoveUpRight width="50" height="50" />
+                    <svg width="50" height="50">
+                      <use href="#arrow-up-right" xlinkHref="#arrow-up-right"></use>
+                    </svg>
                   </a>
                 </div>
               </div>
