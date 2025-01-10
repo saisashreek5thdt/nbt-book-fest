@@ -1,5 +1,4 @@
-import logo1 from "../assets/images/global/logo-landing-light.png";
-import logo2 from "../assets/images/global/logo-secondary.png";
+import logo1 from "../assets/images/global/logoo.png";
 import logo3 from "../assets/images/global/logo.png";
 
 export default function Header() {
@@ -15,7 +14,7 @@ export default function Header() {
                 aria-label="nav-brands"
               >
                 <img src={logo1} className="logo-light" alt="logo" />
-                <img src={logo2} className="logo-dark" alt="logo" />
+                <img src={logo1} className="logo-dark" alt="logo" />
               </a>
 
               <button
